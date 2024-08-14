@@ -34,7 +34,7 @@ RUN set -ex \
 
 WORKDIR /etc/wireproxy
 
-EXPOSE 1080/tcp
+EXPOSE 1080
 
 ENTRYPOINT ["/entrypoint.sh"]
 
