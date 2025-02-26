@@ -6,7 +6,7 @@ FROM virb3/wgcf as wgcf
 
 FROM alpine as source
 
-ARG URL=https://api.github.com/repos/pufferffish/wireproxy/releases/latest
+ARG URL=https://api.github.com/repos/whyvl/wireproxy/releases/latest
 
 WORKDIR /root
 
